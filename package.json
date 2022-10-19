@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/IT122-fall-2022/intro-to-express#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.2"
   }
 }

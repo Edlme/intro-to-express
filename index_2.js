@@ -6,7 +6,7 @@ app.set('port', process.env.PORT || 3000);
 // Route paths can contain regular expressions, to match variations. 
 // For example, the below route would match /user or /username:
 app.get('/user(name)?', (req,res) => {
-    res.render('user');
+    res.send('user');
 });
 
 
